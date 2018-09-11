@@ -1,8 +1,11 @@
 {
   "name": "cron-parser",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "bin": {
+    "cron-parser": "./cli.js"
+  },
+  "description": "Some interview exercise",
+  "main": "./src/index.js",
   "dependencies": {
     "daggy": "^1.2.0",
     "get-stdin": "^6.0.0",
