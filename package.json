@@ -1,0 +1,25 @@
+{
+  "name": "cron-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "daggy": "^1.2.0",
+    "get-stdin": "^6.0.0",
+    "ramda": "^0.25.0",
+    "zero-fill": "^2.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write ./.*.json ./*.js src/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
