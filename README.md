@@ -31,4 +31,4 @@ chmod +x ./cli.js
 
 Given more time, I would have liked to validate input.
 
-If performance was important (which is probably not in a script like this one, I would also optimize `FuzzyTime.nextTime` function.
+If performance was important (which is probably not in a script like this one), I would also optimize `FuzzyTime.nextTime` function.
